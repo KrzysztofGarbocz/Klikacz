@@ -51,16 +51,3 @@ class Controller:
             self.mouse.move(1, 0)
             sleep(0.01)
         self.mouse.release(Button.left)
-
-
-
-
-
-
-
-
-
-
-
-if __name__=='__main__':
-    Contoller()
