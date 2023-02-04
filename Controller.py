@@ -51,3 +51,8 @@ class Controller:
             self.mouse.move(1, 0)
             sleep(0.01)
         self.mouse.release(Button.left)
+
+    def mouse_clik(self, x_coord, y_coord):
+        self.mouse.position = (x_coord, y_coord)
+        self.mouse.click(Button.left,1)
+
