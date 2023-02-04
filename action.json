@@ -1,0 +1,14 @@
+{
+  "STEPS" :
+[
+  {"Click_button":  {"key": "cmd_l"}},
+  {"Type": {"text" : "Paint"}},
+  {"Click_button": {"key": "enter"}},
+  {"Hold_and_press": {"key_hold": "cmd_l","key_press" : "up"}},
+  {"Mouse_clik":   {"x_coord": 284, "y_coord": 64}},
+  {"Mouse_clik":   {"x_coord": 705, "y_coord": 111}},
+  {"Mouse_clik":   {"x_coord": 719, "y_coord": 255}},
+  {"Mouse_clik":   {"x_coord": 956, "y_coord": 58}},
+  {"Mouse_draw":   {"x": 10, "y":  300, "dx": 800}}
+]
+}
